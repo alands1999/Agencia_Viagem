@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #80808029;
+    font-family: 'Raleway';
+}
+/* Globais */
+img {
+    width: 100%;
+    height: 100%;
+}
+.limite-largura {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+/* Globais */
+/* Cabeçalho */
+header {
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+}
+header div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header figure {
+    width: 32px;
+    height: 32px;
+}
+header p {
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+/* Cabeçalho */
+/* Formulário */
+.form {
+    width: 100%;
+    height: auto;
+    background-image: url(assets/imagens/bahia.jpg);
+    background-size: cover;
+}
+.form1 {
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+}
+.icon {
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon figure {
+    width: 20px;
+    height: 20px;
+    rotate: -45deg;
+}
+.icon p {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+}
+form {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+    display: flex;
+    flex-direction: column;
+}
+form h2 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+label {
+    font-size: 16px;
+}
+.campo-form input, select {
+    height: 32px;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 0px 5px;
+}
+select {
+    padding: 0px 3px;
+}
+.campo-form {
+    width: 100%;
+}
+.campo-form1, .campo-form2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 5px 0px;
+}
+.campo-form1 input, .campo-form2 input {
+    padding: 5px;
+}
+.campo-form1 {
+    padding-right: 5px;
+}
+.campo-form2 { 
+    padding-left: 5px;
+}
+.campo1, .campo2 {
+    display: flex;
+}
+.campo1 label {
+    margin-bottom: 10px;
+}
+.opcoes {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0px;
+}
+.opcoes div {
+    display: flex;
+    width: 120px;
+    margin-right: 10px;
+}
+.opcoes input {
+    width: 15px;
+}
+.opcoes label {
+    margin-left: 8px;
+}
+button {
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+}
+/* Formulário */
+/* Ofertas */
+.ofertas, .nature {
+    margin: 32px auto 0px auto;
+}
+.ofertas h2, .nature h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ofertas p, .nature p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.box-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+}
+.destaque, .img-group {
+    width: 50%;
+}
+.destaque figure {
+    height: 100%;
+    padding: 0px 5px 0px 0px;
+}
+.destaque {
+    margin-bottom: -5px;
+}
+.img-group {
+    display: flex;
+}
+.img-group figure {
+    height: 50%;
+    padding: 0px 5px 0px 0px;
+    margin-bottom: 5px;
+}
+.destaque figure, .first-part figure, .second-part figure {
+    position: relative;
+}
+.destaque figcaption, .first-part figcaption, .second-part figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    font-size: 15px;
+    width: calc(100% - 5px);
+}
+/* Ofertas */
+/* explore a natureza */
+.box-img-nature {
+    width: 100%;
+    height: auto;
+    min-height: 470px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-img-nature figure {
+    width: calc(50% + 90px);
+    height: 350px;
+}
+.box-img-nature figcaption {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    background-color: #fff;
+}
+.box-img-nature figcaption h3 {
+    font-size: 16px;
+}
+.box-img-nature figcaption p {
+    margin-top: 15px;
+    color: gray;
+    font-size: 14px;
+}
+/* explore a natureza */
+/* Rodapé */
+footer {
+    width: 100%;
+    margin-top: 32px;
+    background-color: #5d15d1;
+
+}
+.rodap {
+    display: flex;
+    justify-content: space-between;
+}
+.rodap div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+.rodap div h2 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.group p {
+    font-size: 10px;
+    margin: 5px 0px;
+    color: #fff;
+}
+.maps, .tel, .email, .face, .insta, .twitter  {
+    display: flex;
+}
+
+.maps::before, .tel::before, .email::before, .face::before, .insta::before, .twitter::before {
+    content:"";
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.maps::before {
+    background-image: url(assets/imagens/local.png);
+}
+.tel::before {
+    background-image: url(assets/imagens/telefone.png);
+}
+.email::before {
+    background-image: url(assets/imagens/email.png);
+}
+.face::before {
+    background-image: url(assets/imagens/fb.png);
+}
+.insta::before {
+    background-image: url(assets/imagens/ig.png);
+}
+.twitter::before {
+    background-image: url(assets/imagens/tt.png);
+}
+
+@media screen and (max-width: 1100px) {
+    .limite-largura {
+        width: 90%;
+    }
+}
